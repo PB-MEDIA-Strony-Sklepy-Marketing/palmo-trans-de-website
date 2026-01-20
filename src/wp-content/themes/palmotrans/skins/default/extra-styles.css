@@ -1,0 +1,377 @@
+/* Extra Styles +++++++++
+ ++++++++++++++++++++++ */
+/* Icons */
+.sc_icons_creative .sc_icons_item .sc_icons_decoration_bg svg.decor-svg {
+  fill: var(--theme-color-alter_bg_color) !important;
+}
+
+.sc_icons_number .sc_icons_item_number {
+  opacity: 1;
+  color: var(--theme-color-alter_bg_color);
+}
+
+.sc_icons_light.sc_icons_size_large .sc_icon_type_svg svg {
+  stroke: none;
+}
+
+/* Testimonials */
+.sc_testimonials_modern .sc_testimonials_item::before {
+  color: var(--theme-color-text_link3);
+}
+
+.sc_testimonials_qw-big .sc_testimonials_item_author .sc_testimonials_item_author_data .sc_testimonials_item_author_subtitle {
+  color: var(--theme-color-text_light);
+}
+
+.sc_testimonials_light .sc_testimonials_item_author_data .sc_testimonials_item_author_subtitle,
+.sc_testimonials_light .sc_testimonials_item_author_data .sc_testimonials_item_author_title + .sc_testimonials_item_author_subtitle {
+  color: var(--theme-color-text_light);
+  opacity: 1;
+}
+
+.sc_testimonials_light .slider_container.slider_pagination_pos_bottom .swiper-pagination-bullets .swiper-pagination-bullet,
+.sc_testimonials_light .slider_outer.slider_outer_pagination_pos_bottom .swiper-pagination-bullets .swiper-pagination-bullet,
+.sc_testimonials_light .slider_outer.slider_outer_pagination_pos_bottom_outside .swiper-pagination-bullets .swiper-pagination-bullet {
+  border-color: var(--theme-color-bd_color);
+}
+
+.sc_testimonials_light .swiper-pagination-custom .swiper-pagination-button.swiper-pagination-button-active,
+.sc_testimonials_light .sc_slider_controls.slider_pagination_style_bullets .slider_pagination_bullet.swiper-pagination-bullet-active,
+.sc_testimonials_light .sc_slider_controls.slider_pagination_style_bullets .slider_pagination_bullet:hover,
+.sc_testimonials_light .slider_container .slider_pagination_wrap .swiper-pagination-bullet.swiper-pagination-bullet-active,
+.sc_testimonials_light .slider_outer .slider_pagination_wrap .swiper-pagination-bullet.swiper-pagination-bullet-active,
+.sc_testimonials_light .slider_container .slider_pagination_wrap .swiper-pagination-bullet:hover,
+.sc_testimonials_light .slider_outer .slider_pagination_wrap .swiper-pagination-bullet:hover {
+  border-color: var(--theme-color-text_link);
+}
+
+/* Services */
+.sc_services_shine .sc_services_item.with_image .sc_services_item_content:before {
+  background-color: var(--theme-color-alter_bg_hover);
+}
+
+.sc_services_shine .sc_slider_controls .slider_controls_wrap > a,
+.sc_services_shine .slider_container.slider_controls_side .slider_controls_wrap > a,
+.sc_services_shine .slider_outer_controls_outside .slider_controls_wrap > a,
+.sc_services_shine .slider_outer_controls_side .slider_controls_wrap > a,
+.sc_services_shine .slider_outer_controls_top .slider_controls_wrap > a,
+.sc_services_shine .slider_outer_controls_bottom .slider_controls_wrap > a {
+  border: 1px solid var(--theme-color-text_dark);
+}
+
+.sc_services_shine .slider_outer_controls_bottom > .slider_controls_wrap {
+  margin-top: 3em;
+}
+
+.sc_services_qw-panel .sc_services_item .sc_services_item_number.duplicate {
+  font-weight: var(--theme-font-h6_font-family);
+}
+
+.sc_services_qw-card .sc_services_item {
+  background-color: var(--theme-color-alter_bg_hover);
+}
+
+/* Prices */
+.sc_price_metro .sc_price_item_description ul li:before,
+.sc_price_metro .sc_price_item_details ul li:before {
+  color: var(--theme-color-alter_link);
+}
+
+.sc_price_metro .sc_price_item,
+.sc_price_metro .sc_price_item.sc_price_active {
+  -webkit-box-shadow: none;
+  -ms-box-shadow: none;
+  box-shadow: none;
+}
+
+.sc_price_light .sc_price_item.sc_price_active {
+  -webkit-box-shadow: none;
+  -ms-box-shadow: none;
+  box-shadow: none;
+}
+
+.sc_price_light .sc_price_item_icon {
+  color: var(--theme-color-alter_link);
+}
+
+.sc_price_light .sc_price_item_description ul li:after,
+.sc_price_light .sc_price_item_details ul li:after {
+  color: var(--theme-color-alter_link3);
+}
+
+/* Iconed Text */
+.sc_layouts_row_type_compact .sc_layouts_iconed_text:not(.sc_layouts_menu_mobile_button):not(.sc_layouts_menu_mobile_button_burger) .sc_layouts_iconed_text_link .sc_layouts_iconed_text_icon {
+  background-color: var(--theme-color-text_link3);
+  -webkit-box-shadow: 0 0 0 4px var(--theme-color-text_link3_02);
+          box-shadow: 0 0 0 4px var(--theme-color-text_link3_02);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.sc_layouts_row_type_compact .sc_layouts_iconed_text:not(.sc_layouts_menu_mobile_button):not(.sc_layouts_menu_mobile_button_burger) .sc_layouts_iconed_text_link:hover .sc_layouts_iconed_text_icon {
+  -webkit-box-shadow: 0 0 0 6px var(--theme-color-text_link3_02);
+          box-shadow: 0 0 0 6px var(--theme-color-text_link3_02);
+}
+
+.sc_layouts_row_type_compact .sc_layouts_iconed_text:not(.sc_layouts_menu_mobile_button):not(.sc_layouts_menu_mobile_button_burger) .sc_layouts_item_details {
+  font-size: 20px;
+  font-weight: var(--theme-font-h5_font-weight);
+}
+
+.sc_layouts_item_details_line1 {
+  color: var(--theme-color-text_dark);
+}
+
+/* Scroll to top */
+.scroll_to_top_style_default {
+  border-radius: 0;
+}
+
+/* Contact Form 7 */
+div.wpcf7 .form-style-4 .columns_wrap > [class*="column-"] {
+  padding-bottom: 15px;
+}
+
+div.wpcf7 .form-style-4 .wpcf7-submit-style {
+  margin-top: 13px;
+  width: 100%;
+}
+
+div.wpcf7 .form-style-4 .wpcf7-submit-style .wpcf7-submit {
+  width: 100%;
+  padding: 17px !important;
+}
+
+div.wpcf7 .form-style-4 .wpcf7-submit-style .submit-style-in:before {
+  display: none;
+}
+
+div.wpcf7 .form-style-4 + div.wpcf7-response-output {
+  margin: 15px 0 0;
+}
+
+div.wpcf7 .form-style-4 span.wpcf7-not-valid-tip {
+  bottom: -5px;
+}
+
+div.wpcf7 .form-style-4 .wpcf7-not-valid + .wpcf7-not-valid-tip {
+  margin-bottom: 0.5em;
+}
+
+div.wpcf7 .form-style-6 .columns_wrap.margin-bottom {
+  padding-bottom: 10px;
+}
+
+div.wpcf7 .form-style-extra {
+  /* Chrome, Safari, Edge, Opera */
+  /* Firefox */
+}
+
+div.wpcf7 .form-style-extra p {
+  margin: 0;
+}
+
+div.wpcf7 .form-style-extra h1, div.wpcf7 .form-style-extra h2, div.wpcf7 .form-style-extra h3, div.wpcf7 .form-style-extra h4, div.wpcf7 .form-style-extra h5, div.wpcf7 .form-style-extra h6 {
+  margin-top: 0;
+  margin-bottom: 0.8em;
+}
+
+div.wpcf7 .form-style-extra input[type="text"],
+div.wpcf7 .form-style-extra input[type="number"],
+div.wpcf7 .form-style-extra input[type="email"],
+div.wpcf7 .form-style-extra input[type="url"],
+div.wpcf7 .form-style-extra input[type="tel"],
+div.wpcf7 .form-style-extra input[type="password"],
+div.wpcf7 .form-style-extra input[type="search"],
+div.wpcf7 .form-style-extra select, div.wpcf7 .form-style-extra textarea,
+div.wpcf7 .form-style-extra textarea.wp-editor-area {
+  padding: 0.9em 1.2em;
+  border: 1px solid var(--theme-color-input_bd_color);
+}
+
+div.wpcf7 .form-style-extra input[type="text"]:focus,
+div.wpcf7 .form-style-extra input[type="number"]:focus,
+div.wpcf7 .form-style-extra input[type="email"]:focus,
+div.wpcf7 .form-style-extra input[type="url"]:focus,
+div.wpcf7 .form-style-extra input[type="tel"]:focus,
+div.wpcf7 .form-style-extra input[type="password"]:focus,
+div.wpcf7 .form-style-extra input[type="search"]:focus,
+div.wpcf7 .form-style-extra select:focus, div.wpcf7 .form-style-extra textarea:focus,
+div.wpcf7 .form-style-extra textarea.wp-editor-area:focus {
+  border-color: var(--theme-color-input_bd_hover);
+}
+
+div.wpcf7 .form-style-extra input::-webkit-outer-spin-button,
+div.wpcf7 .form-style-extra input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+div.wpcf7 .form-style-extra input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+div.wpcf7 .form-style-extra .select_container,
+div.wpcf7 .form-style-extra textarea,
+div.wpcf7 .form-style-extra input:not([type="submit"]):not([type="radio"]):not([type="checkbox"]) {
+  margin-bottom: 0;
+}
+
+div.wpcf7 .form-style-extra .select_container:after {
+  right: 1em;
+}
+
+div.wpcf7 .form-style-extra .label {
+  display: inline-block;
+  margin-bottom: 0.5em;
+  font-family: var(--theme-font-h5_font-family);
+  font-size: 19px;
+  line-height: 24px;
+  font-weight: 500;
+  color: var(--theme-color-text_dark);
+}
+
+div.wpcf7 .form-style-extra .columns_wrap > [class*="column-"] {
+  padding-bottom: 28px;
+}
+
+div.wpcf7 .form-style-extra .columns_wrap.margin-bottom > [class*="column-"] {
+  padding-bottom: 38px;
+}
+
+div.wpcf7 .form-style-extra .wpcf7-not-valid + .wpcf7-not-valid-tip {
+  margin-bottom: 0;
+}
+
+/* Sliders Controls */
+.sc_slider_controls.slider_pagination_style_bullets .slider_pagination_bullet,
+.slider_container .slider_pagination_wrap .swiper-pagination-bullet,
+.slider_outer .slider_pagination_wrap .swiper-pagination-bullet,
+.swiper-pagination-custom .swiper-pagination-button {
+  background-color: var(--theme-color-alter_bd_color);
+}
+
+.sc_slider_controls.sc_slider_controls_alter .slider_pagination_bullet.swiper-pagination-bullet-active {
+  border-color: var(--theme-color-text_link2);
+  background-color: var(--theme-color-text_link2);
+}
+
+.sc_slider_controls.sc_slider_controls_alter .slider_pagination_bullet.swiper-pagination-bullet-active:after {
+  background-color: var(--theme-color-text_link2_02);
+}
+
+.sc_slider_controls .slider_controls_wrap > a,
+.slider_container.slider_controls_side .slider_controls_wrap > a,
+.slider_outer_controls_outside .slider_controls_wrap > a,
+.slider_outer_controls_side .slider_controls_wrap > a,
+.slider_outer_controls_top .slider_controls_wrap > a,
+.slider_outer_controls_bottom .slider_controls_wrap > a {
+  border-radius: 0;
+}
+
+/* Num Hover */
+.num-hover,
+.num-hover * {
+  color: var(--theme-color-text_light);
+}
+
+.sc_cover:hover + .elementor-container .num-hover,
+.sc_cover:hover + .elementor-container .num-hover * {
+  color: var(--theme-color-text_link);
+}
+
+/* Toggle */
+.elementor-toggle .elementor-toggle-icon {
+  line-height: 1.5em;
+}
+
+/* 404 */
+.post_item_404 .page_title {
+  color: var(--theme-color-bd_color);
+}
+
+@media (min-width: 1440px) {
+  .post_item_404 .page_title {
+    font-size: 22.4vw;
+    letter-spacing: -0.03em;
+  }
+}
+
+.post_item_404 .post_content .all-svg {
+  display: none;
+}
+
+/* Custom */
+.button_bg_icon_color2 .sc_button_icon {
+  background-color: var(--theme-color-alter_bg_color);
+  border: none !important;
+  font-size: 18px !important;
+  border-radius: 0 !important;
+}
+
+.custom_icon_btn.elementor-widget-button .elementor-button .elementor-button-content-wrapper .elementor-button-icon {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (max-width: 1279px) {
+  /* Contact Form 7 */
+  div.wpcf7 .form-style-extra .label {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  div.wpcf7 .form-style-extra input[type="text"],
+  div.wpcf7 .form-style-extra input[type="number"],
+  div.wpcf7 .form-style-extra input[type="email"],
+  div.wpcf7 .form-style-extra input[type="url"],
+  div.wpcf7 .form-style-extra input[type="tel"],
+  div.wpcf7 .form-style-extra input[type="password"],
+  div.wpcf7 .form-style-extra input[type="search"],
+  div.wpcf7 .form-style-extra select,
+  div.wpcf7 .form-style-extra textarea,
+  div.wpcf7 .form-style-extra textarea.wp-editor-area {
+    padding: 0.8em 1.1em;
+  }
+  div.wpcf7 .form-style-extra .columns_wrap {
+    margin-right: -20px;
+  }
+  div.wpcf7 .form-style-extra .columns_wrap > [class*="column-"] {
+    padding-bottom: 20px;
+    padding-right: 20px;
+  }
+  div.wpcf7 .form-style-extra .columns_wrap.margin-bottom > [class*="column-"] {
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* Contact Form 7 */
+  div.wpcf7 .form-style-extra .label {
+    font-size: 17px;
+    line-height: 21px;
+  }
+  div.wpcf7 .form-style-extra input[type="text"],
+  div.wpcf7 .form-style-extra input[type="number"],
+  div.wpcf7 .form-style-extra input[type="email"],
+  div.wpcf7 .form-style-extra input[type="url"],
+  div.wpcf7 .form-style-extra input[type="tel"],
+  div.wpcf7 .form-style-extra input[type="password"],
+  div.wpcf7 .form-style-extra input[type="search"],
+  div.wpcf7 .form-style-extra select,
+  div.wpcf7 .form-style-extra textarea,
+  div.wpcf7 .form-style-extra textarea.wp-editor-area {
+    padding: 0.7em 1em;
+  }
+  div.wpcf7 .form-style-extra .columns_wrap {
+    margin-right: -10px;
+  }
+  div.wpcf7 .form-style-extra .columns_wrap > [class*="column-"] {
+    padding-bottom: 10px;
+    padding-right: 10px;
+  }
+  div.wpcf7 .form-style-extra .columns_wrap.margin-bottom > [class*="column-"] {
+    padding-bottom: 20px;
+  }
+}
+/*# sourceMappingURL=extra-styles.css.map */

@@ -1,0 +1,7 @@
+1. Jakie są Pana rocznie koszty utrzymania (hosting, domena, certyfikat ssl) w STRATO.de? W Smarthost.pl koszta roczne utrzymania (Hosting: 129zł netto rok), (Domena .com: 79zł netto rok), (Certyfikat SSL: Bezpłatny dla każdej domeny). Migracja usług z STRATO do Smarthost - bezpłatna.
+2. Struktura Menu Strony (Startseite, Untermehmen, Angebot, Fahrzeuge, Kontakt, Preis und Buchung, Datenschutzrichtlinie, Satzung).
+3. Logo: (Lifting loga modernizacja + zrobienie wersji wektorowej na stronę www, z późniejszą możliwością wykorzystania na nadruki).
+4. Pliki analizy brandu: (analiza-elementów-logo-palmo-trans.pdf, DESIGN-SYSTEM-PALMO-TRANS.pdf, SEO-STRATEGY-PALMO-TRANS.pdf, specyfikacja-logo-palmo-trans.pdf, variables-style-palmo-trans.pdf).
+5. Funkcja "Preis und Buchung" - kalkulator kosztów transportu wyliczany według wzoru przygotowanego przez klienta, z możliwością opłacenia rezerwacji transportu. Komunikat o dokonaniu zlecenia i opłacenia wysyłany w wiadomości e-mail. (Opcjonalnie: Oprócz wiadomości e-mail, możliwe powiadomienie SMS na wybrany numer telefonu).
+6. Dwa języki strony internetowej to niemiecki i angielski. Serwowanie odpowiedniego języka strony użytkownikowi po jego lokalizacji. Tłumaczenie renderowane na stronie w locie używając Google Tłumacz z belką w menu strony rozwijaną z możliwością manualnego zmiany języka strony.
+7. Specjalne integracje na życzenia. Jeżeli coś przegapiłem i nie wymieniłem do tej pory to proszę napisać lub jeżeli Pan chcę jakaś specjalną funkcję na życzenie, to proszę napisać. Wdrożę.

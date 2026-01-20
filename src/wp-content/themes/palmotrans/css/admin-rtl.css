@@ -1,0 +1,133 @@
+/* About Theme */
+.truck_about {
+	margin: 2em 0 0 2em;
+}
+
+/* Theme Options */
+.truck_options_item[class*="column-"] {
+	padding: 1.25em 0 1.25em 2em;
+}
+.truck_list_choice_item {
+	margin-left: 20px;
+	margin-right: 0;
+}
+.truck_options_header {
+	margin: 1em 0 0 20px;
+}
+.truck_options_title {
+	float: right;
+}
+.truck_options_item_info {
+	border-right: 0 !important;
+}
+.truck_options_item_title {
+	padding-left: 30px;
+	padding-right: 0;
+}
+.truck_options_item_info .truck_options_item_title,
+[class*="truck_column-"] .truck_options_item_title,
+[class*="truck_column-"] .truck_options_item_data {
+	text-align: right;
+}
+.truck_range_slider_value {
+	margin-left: 10px !important;
+	margin-right: 0 !important;
+}
+.truck_options_buttons {
+	float: left;
+	text-align: left;
+}
+.truck_options .truck_options_button:before {
+	margin: -1px 0 0 0.3em;
+}
+div.truck_tabs_vertical > ul.ui-tabs-nav > li.ui-state-active {
+	border-right: 3px solid #11a0d2;
+	border-left: 0;
+}
+div.truck_tabs_vertical > ul.ui-tabs-nav > li.ui-state-active > a.ui-tabs-anchor {
+	right: 1px;
+	left: auto;
+	padding-right: 10px;
+	padding-left: 13px;
+}
+div.truck_tabs > ul.ui-tabs-nav > li > a > i[class*="dashicons-"],
+div.truck_tabs > ul.ui-tabs-nav > li > a > i[class*="icon-"] {
+	margin: 0 0 0 0.5em;
+}
+div.truck_tabs_vertical > ul.ui-tabs-nav > li.truck_tabs_title_super > a.ui-tabs-anchor {
+	padding-left: 2em;
+	padding-right: 13px;
+}
+div.truck_tabs_vertical > ul.ui-tabs-nav > li.truck_tabs_title_super:after {
+	content: '\e858';
+	left: 12px;
+	right: auto;
+}
+div.truck_tabs_vertical > ul.ui-tabs-nav > li.truck_tabs_title_sub > a.ui-tabs-anchor,
+div.truck_tabs_vertical > ul.ui-tabs-nav > li.truck_tabs_title_sub.ui-state-active > a.ui-tabs-anchor {
+	padding: 0.6em 2.95em 0.6em 0.6em;
+}
+.truck_range_slider_units {
+	margin-right: -8px;
+	margin-left: 0;
+}
+.truck_options_item_radio .truck_options_item_holder,
+.truck_options input[type="radio"] + .truck_options_item_holder {
+	margin-left: 0.5em;
+	margin-right: 0;
+}
+.truck_options_item_radio .truck_options_item_label {
+	margin: 0 0 0 1em;
+}
+.truck_checklist.truck_sortable .truck_checklist_item_label {
+	padding: 6px 6px 6px 2.5em;
+}
+.truck_options_item_checkbox input[type="checkbox"],
+.truck_options_item_checklist input[type="checkbox"] {
+	margin-left: 0.5em;
+	margin-right: 0;
+}
+.truck_options_item_checkbox input[type="checkbox"]:checked:before,
+.truck_options_item_checklist input[type="checkbox"]:checked:before {
+	right: 50%;
+	left: auto;
+	-webkit-transform: translate(50%, -50%);
+	-ms-transform: translate(50%, -50%);
+	transform: translate(50%, -50%);
+}
+.truck_checklist.truck_sortable .truck_checklist_item_label:after {
+	left: 12px;
+	right: auto;
+}
+.truck_scheme_editor_scheme {
+	padding-left: 105px;
+	padding-right: 0;
+}
+.truck_scheme_editor_controls {
+	left: 0;
+	right: auto;
+}
+.truck_scheme_editor_control {
+	margin-right: 2px;
+	margin-left: 0;
+}
+.truck_options_inherit_off .truck_options_inherit_lock {
+	left: 4px;
+	right: auto;
+}
+.truck_options_inherit_lock {
+	left: 2px;
+	right: auto;
+}
+.truck_options_item_image .truck_media_selector,
+.truck_options_item_media .truck_media_selector,
+.truck_options_item_audio .truck_media_selector,
+.truck_options_item_video .truck_media_selector {
+	float: none !important;
+}
+
+@media (min-width: 601px) {
+	.truck_options_header.sticky {
+		margin: 0 -20px 0 0;
+	}
+}

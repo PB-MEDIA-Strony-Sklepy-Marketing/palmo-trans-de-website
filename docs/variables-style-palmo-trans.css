@@ -1,0 +1,427 @@
+/**
+ * ============================================
+ * PALMO-TRANS GmbH - BRAND STYLE VARIABLES
+ * Międzynarodowy Transport Drogowy
+ * ============================================
+ * Kolorystyka branży transportowej z pełną responsywnością (rem)
+ * WCAG 2.2 Level AA compliance
+ * Mobile-first approach
+ * ============================================
+ */
+
+:root {
+    /* ========== KOLORY GŁÓWNE BRANDU ========== */
+    --color-theme-primary: #FFD700;           /* Żółty transportowy - główny akcent */
+    --color-theme-primary-light: #FFE44D;     /* Jaśniejszy żółty */
+    --color-theme-primary-dark: #E6C200;      /* Ciemniejszy żółty */
+    --color-theme-primary-ultra-light: #FFF9E0; /* Bardzo jasny żółty - tła */
+    
+    --color-theme-secondary: #1A1A1A;         /* Czarny - solidność */
+    --color-theme-secondary-light: #333333;   /* Ciemnoszary */
+    --color-theme-secondary-dark: #000000;    /* Głęboki czarny */
+    
+    --color-accent-red: #DC143C;              /* Czerwony ostrzegawczy - akcenty */
+    --color-accent-red-dark: #B01030;         /* Ciemny czerwony */
+    
+    --color-accent-blue: #0066CC;             /* Niebieski transportowy */
+    --color-accent-blue-dark: #004C99;        /* Ciemny niebieski */
+    
+    --color-heading-primary: #1A1A1A;         /* Czarny dla nagłówków */
+    --color-heading-secondary: #333333;       /* Ciemnoszary dla podtytułów */
+    
+    --color-text-primary: #333333;            /* Główny tekst */
+    --color-text-secondary: #555555;          /* Drugorzędny tekst */
+    --color-text-muted: #777777;              /* Wyciszony tekst */
+    --color-text-light: #999999;              /* Jasny tekst */
+    
+    /* ========== TŁA ========== */
+    --background-theme-primary: #1A1A1A;      /* Ciemne tło hero */
+    --background-theme-secondary: #F5F5F5;    /* Jasne tło sekcji */
+    --background-white: #FFFFFF;              /* Białe tło */
+    --background-dark: #000000;               /* Bardzo ciemne tło footer */
+    --background-yellow: #FFD700;             /* Żółte tło akcent */
+    --background-overlay: rgba(0, 0, 0, 0.85); /* Overlay dla hero */
+    
+    /* ========== PRZYCISKI ========== */
+    --button-theme-color: #FFD700;            /* Przycisk główny */
+    --button-theme-color-hover: #FFE44D;      /* Hover główny */
+    --button-theme-color-active: #E6C200;     /* Active główny */
+    
+    --button-secondary-color: #1A1A1A;        /* Przycisk drugorzędny */
+    --button-secondary-hover: #333333;        /* Hover drugorzędny */
+    --button-secondary-active: #000000;       /* Active drugorzędny */
+    
+    --button-text-color: #1A1A1A;             /* Tekst na żółtym przycisku */
+    --button-text-hover: #1A1A1A;             /* Tekst na hover */
+    --button-text-dark: #FFFFFF;              /* Tekst na czarnym przycisku */
+    
+    /* ========== LINKI ========== */
+    --link-color: #0066CC;                    /* Link domyślny */
+    --link-hover: #004C99;                    /* Link hover */
+    --link-active: #003366;                   /* Link active */
+    --link-visited: #004C99;                  /* Link odwiedzony */
+    
+    /* ========== OBRAMOWANIA ========== */
+    --border-color-light: #E0E0E0;            /* Jasne obramowanie */
+    --border-color-medium: #CCCCCC;           /* Średnie obramowanie */
+    --border-color-dark: #999999;             /* Ciemne obramowanie */
+    --border-color-accent: #FFD700;           /* Żółte obramowanie */
+    --border-color-black: #1A1A1A;            /* Czarne obramowanie */
+    
+    /* ========== CIENIE (SHADOWS) - Industrial ========== */
+    --shadow-sm: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+    --shadow-md: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.15);
+    --shadow-lg: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.2);
+    --shadow-xl: 0 1rem 3rem rgba(0, 0, 0, 0.25);
+    --shadow-2xl: 0 1.5rem 4rem rgba(0, 0, 0, 0.3);
+    --shadow-yellow: 0 0.625rem 2rem rgba(255, 215, 0, 0.3); /* Żółty cień */
+    --shadow-inset: inset 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+    
+    /* ========== SWIPER / KARUZELE ========== */
+    --swiper-theme-color: #FFD700;
+    --swiper-pagination-bullet-inactive-color: #CCCCCC;
+    --swiper-pagination-bullet-inactive-opacity: 0.5;
+    
+    /* ========== FORMULARZE ========== */
+    --input-bg: #FFFFFF;
+    --input-border: #CCCCCC;
+    --input-border-focus: #FFD700;
+    --input-text: #333333;
+    --input-placeholder: #999999;
+    --input-shadow-focus: 0 0 0 0.2rem rgba(255, 215, 0, 0.25);
+    
+    /* ========== STATUSY I ALERTY ========== */
+    --color-success: #28A745;
+    --color-success-light: #D4EDDA;
+    --color-error: #DC3545;
+    --color-error-light: #F8D7DA;
+    --color-warning: #FFC107;
+    --color-warning-light: #FFF3CD;
+    --color-info: #0066CC;
+    --color-info-light: #CCE5FF;
+    
+    /* ========== TYPOGRAFIA (REM dla responsywności) ========== */
+    /* Base: 16px = 1rem */
+    
+    /* Font Sizes - Mobile First */
+    --font-size-xs: 0.75rem;      /* 12px */
+    --font-size-sm: 0.875rem;     /* 14px */
+    --font-size-base: 1rem;       /* 16px */
+    --font-size-lg: 1.125rem;     /* 18px */
+    --font-size-xl: 1.25rem;      /* 20px */
+    --font-size-2xl: 1.5rem;      /* 24px */
+    --font-size-3xl: 1.875rem;    /* 30px */
+    --font-size-4xl: 2.25rem;     /* 36px */
+    --font-size-5xl: 3rem;        /* 48px */
+    --font-size-6xl: 3.75rem;     /* 60px */
+    
+    /* Line Heights */
+    --line-height-tight: 1.25;
+    --line-height-normal: 1.5;
+    --line-height-relaxed: 1.75;
+    --line-height-loose: 2;
+    
+    /* Font Weights */
+    --font-weight-light: 300;
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+    --font-weight-extrabold: 800;
+    --font-weight-black: 900;
+    
+    /* Letter Spacing */
+    --letter-spacing-tight: -0.025em;
+    --letter-spacing-normal: 0;
+    --letter-spacing-wide: 0.025em;
+    --letter-spacing-wider: 0.05em;
+    --letter-spacing-widest: 0.1em;
+    
+    /* ========== SPACING (REM) - Mobile First ========== */
+    --spacing-0: 0;
+    --spacing-1: 0.25rem;   /* 4px */
+    --spacing-2: 0.5rem;    /* 8px */
+    --spacing-3: 0.75rem;   /* 12px */
+    --spacing-4: 1rem;      /* 16px */
+    --spacing-5: 1.25rem;   /* 20px */
+    --spacing-6: 1.5rem;    /* 24px */
+    --spacing-8: 2rem;      /* 32px */
+    --spacing-10: 2.5rem;   /* 40px */
+    --spacing-12: 3rem;     /* 48px */
+    --spacing-16: 4rem;     /* 64px */
+    --spacing-20: 5rem;     /* 80px */
+    --spacing-24: 6rem;     /* 96px */
+    --spacing-32: 8rem;     /* 128px */
+    
+    /* ========== BORDER RADIUS - Industrial Sharp ========== */
+    --radius-none: 0;
+    --radius-sm: 0.125rem;  /* 2px */
+    --radius-md: 0.25rem;   /* 4px */
+    --radius-lg: 0.375rem;  /* 6px */
+    --radius-xl: 0.5rem;    /* 8px */
+    --radius-2xl: 0.75rem;  /* 12px */
+    --radius-3xl: 1rem;     /* 16px */
+    --radius-full: 9999px;  /* Pełne zaokrąglenie */
+    
+    /* ========== TRANSITIONS - Industrial Smooth ========== */
+    --transition-fast: 150ms ease-in-out;
+    --transition-base: 250ms ease-in-out;
+    --transition-slow: 350ms ease-in-out;
+    --transition-slower: 500ms ease-in-out;
+    
+    /* Easing Functions Industrial */
+    --ease-in-out-cubic: cubic-bezier(0.645, 0.045, 0.355, 1);
+    --ease-in-out-quart: cubic-bezier(0.770, 0, 0.175, 1);
+    --ease-industrial: cubic-bezier(0.4, 0, 0.2, 1);
+    
+    /* ========== Z-INDEX LAYERS ========== */
+    --z-dropdown: 1000;
+    --z-sticky: 1020;
+    --z-fixed: 1030;
+    --z-modal-backdrop: 1040;
+    --z-modal: 1050;
+    --z-popover: 1060;
+    --z-tooltip: 1070;
+    
+    /* ========== BREAKPOINTS (dla JS) ========== */
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --breakpoint-xxl: 1400px;
+    
+    /* ========== CONTAINER MAX-WIDTH ========== */
+    --container-sm: 33.75rem;   /* 540px */
+    --container-md: 45rem;      /* 720px */
+    --container-lg: 60rem;      /* 960px */
+    --container-xl: 71.25rem;   /* 1140px */
+    --container-xxl: 81.25rem;  /* 1300px */
+}
+
+/* ========== RESPONSIVE TYPOGRAPHY ========== */
+@media (min-width: 768px) {
+    :root {
+        --font-size-base: 1.0625rem;  /* 17px */
+        --font-size-lg: 1.25rem;      /* 20px */
+        --font-size-xl: 1.5rem;       /* 24px */
+        --font-size-2xl: 1.875rem;    /* 30px */
+        --font-size-3xl: 2.25rem;     /* 36px */
+        --font-size-4xl: 3rem;        /* 48px */
+        --font-size-5xl: 4rem;        /* 64px */
+        --font-size-6xl: 5rem;        /* 80px */
+    }
+}
+
+@media (min-width: 1200px) {
+    :root {
+        --font-size-base: 1.125rem;   /* 18px */
+        --font-size-5xl: 4.5rem;      /* 72px */
+        --font-size-6xl: 6rem;        /* 96px */
+    }
+}
+
+/* ========== DARK MODE SUPPORT (Opcjonalne) ========== */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-theme-secondary: #1A1A1A;
+        --background-white: #2B2B2B;
+        --color-text-primary: #E0E0E0;
+        --color-text-secondary: #CCCCCC;
+        --input-bg: #2B2B2B;
+        --border-color-light: #555555;
+    }
+}
+
+/* ========== UTILITY CLASSES - Industrial Styling ========== */
+
+/* Gradient Industrial */
+.gradient-industrial {
+    background: linear-gradient(135deg, var(--color-theme-secondary) 0%, var(--color-theme-secondary-light) 100%);
+}
+
+.gradient-yellow {
+    background: linear-gradient(135deg, var(--color-theme-primary) 0%, var(--color-theme-primary-dark) 100%);
+}
+
+.gradient-hero {
+    background: linear-gradient(135deg, var(--background-theme-primary) 0%, #2B2B2B 100%);
+}
+
+.gradient-text {
+    background: linear-gradient(135deg, var(--color-theme-primary) 0%, var(--color-theme-primary-dark) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* Animacje Industrial */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(2rem);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(2rem);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.7;
+    }
+}
+
+@keyframes shimmer {
+    0% {
+        background-position: -200% center;
+    }
+    100% {
+        background-position: 200% center;
+    }
+}
+
+@keyframes truckDrive {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+/* Industrial Hover Effects */
+.hover-lift {
+    transition: transform var(--transition-base), box-shadow var(--transition-base);
+}
+
+.hover-lift:hover {
+    transform: translateY(-0.375rem);
+    box-shadow: var(--shadow-xl);
+}
+
+.hover-yellow-glow:hover {
+    box-shadow: 0 0 1.25rem rgba(255, 215, 0, 0.5);
+}
+
+.hover-scale {
+    transition: transform var(--transition-base);
+}
+
+.hover-scale:hover {
+    transform: scale(1.05);
+}
+
+/* Industrial Button Base */
+.btn-industrial {
+    background: var(--button-theme-color);
+    color: var(--button-text-color);
+    border: none;
+    padding: var(--spacing-3) var(--spacing-6);
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-bold);
+    border-radius: var(--radius-md);
+    transition: all var(--transition-base) var(--ease-industrial);
+    box-shadow: var(--shadow-md);
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    letter-spacing: var(--letter-spacing-wide);
+    text-transform: uppercase;
+}
+
+.btn-industrial:hover {
+    background: var(--button-theme-color-hover);
+    box-shadow: var(--shadow-yellow);
+    transform: translateY(-0.125rem);
+}
+
+.btn-industrial:active {
+    background: var(--button-theme-color-active);
+    transform: translateY(0);
+    box-shadow: var(--shadow-sm);
+}
+
+.btn-dark {
+    background: var(--button-secondary-color);
+    color: var(--button-text-dark);
+}
+
+.btn-dark:hover {
+    background: var(--button-secondary-hover);
+}
+
+/* Focus States - WCAG 2.2 Compliance */
+*:focus-visible {
+    outline: 0.125rem solid var(--color-theme-primary);
+    outline-offset: 0.25rem;
+    border-radius: var(--radius-sm);
+}
+
+/* Kontrast - WCAG 2.2 Level AA */
+.high-contrast {
+    color: var(--color-heading-primary);
+    background: var(--background-white);
+}
+
+/* Reduce Motion - Accessibility */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
+/* ========== TRANSPORT SPECIFIC STYLES ========== */
+
+/* Truck icon animation */
+.truck-moving {
+    animation: truckDrive 3s linear infinite;
+}
+
+/* Loading bar (dla śledzenia przesyłki) */
+.loading-bar {
+    height: 4px;
+    background: var(--color-theme-primary);
+    animation: shimmer 2s linear infinite;
+}
+
+/* Route indicator */
+.route-active {
+    border-left: 3px solid var(--color-theme-primary);
+    padding-left: var(--spacing-4);
+}
+
+/* Alert stripe (ostrzeżenia transportowe) */
+.alert-stripe {
+    background: repeating-linear-gradient(
+        45deg,
+        var(--color-theme-primary),
+        var(--color-theme-primary) 10px,
+        var(--color-theme-secondary) 10px,
+        var(--color-theme-secondary) 20px
+    );
+    height: 8px;
+}
