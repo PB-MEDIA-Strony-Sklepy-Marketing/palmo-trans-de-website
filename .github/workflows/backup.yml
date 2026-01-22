@@ -1,0 +1,12 @@
+name: Automated Backup
+on:
+  schedule:
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: echo "Creating backup..."
+      - run: tar -czf backup-$(date +%Y%m%d).tar.gz wp-content/

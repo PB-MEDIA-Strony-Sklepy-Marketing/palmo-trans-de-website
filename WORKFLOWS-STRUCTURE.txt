@@ -1,0 +1,51 @@
+GitHub Actions Workflows - Structure Overview
+==============================================
+
+.github/workflows/
+├── ci.yml (4.9K)                      - ⚡ CI: syntax, standards, build, security
+├── deploy-production.yml (477B)        - 🚀 Production deployment
+├── deploy-staging.yml (184B)           - 🧪 Staging deployment
+├── tests.yml (240B)                    - 🧪 PHP & JS automated tests
+├── security-scan.yml (209B)            - 🔐 Security vulnerability scanning (daily)
+├── code-quality.yml (331B)             - 📝 PHPCS + ESLint quality checks
+├── lighthouse-audit.yml (294B)         - ⚡ Performance & SEO audit (weekly)
+├── dependency-update.yml (247B)        - 📦 Dependency updates check (weekly)
+├── backup.yml (275B)                   - 💾 Automated backups (daily)
+└── README.md (~20K)                    - 📚 Complete documentation
+
+TOTAL: 10 files, ~27KB
+
+Execution Flow:
+===============
+
+1. Developer Push → CI (ci.yml)
+   ├─→ PHP Syntax Check
+   ├─→ PHPCS Standards
+   ├─→ Build Assets
+   └─→ Security Scan
+
+2. CI Pass → Tests (tests.yml)
+   ├─→ PHPUnit Tests
+   └─→ Jest Tests
+
+3. Tests Pass → Code Quality (code-quality.yml)
+   ├─→ PHPCS
+   └─→ ESLint
+
+4. Quality Pass → Deploy Staging (deploy-staging.yml)
+   └─→ Staging Environment
+
+5. Staging Verified → Deploy Production (deploy-production.yml)
+   └─→ Production (with approval)
+
+Background Jobs:
+================
+- Security Scan: Daily 2:00 AM
+- Lighthouse Audit: Weekly Sunday
+- Dependency Update: Weekly Monday  
+- Backup: Daily 3:00 AM
+
+Environments:
+=============
+- staging: Auto-deploy from 'develop'
+- production: Auto-deploy from 'main' (with approval)

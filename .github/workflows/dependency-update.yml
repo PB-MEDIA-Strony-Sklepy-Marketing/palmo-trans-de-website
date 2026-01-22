@@ -1,0 +1,12 @@
+name: Dependency Updates
+on:
+  schedule:
+    - cron: '0 0 * * 1'
+  workflow_dispatch:
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: npm outdated || true
+      - run: composer outdated || true
