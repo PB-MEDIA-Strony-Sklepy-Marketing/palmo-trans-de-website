@@ -1,0 +1,31 @@
+Palmo Trans DE - AI Configuration Files Structure
+==================================================
+
+ROOT LEVEL - Główne pliki dokumentacji AI
+├── AGENTS.md (8.3K)          - Przegląd wszystkich agentów AI
+├── CLAUDE.md (18K)           - Konfiguracja dla Claude AI Projects
+├── OLLAMA.md (13K)           - Konfiguracja dla Ollama (local LLM)
+└── QWEN.md (15K)             - Konfiguracja dla Qwen AI Desktop
+
+.github/agents/ - Szczegółowe specyfikacje agentów
+├── wordpress-theme-agent.md (20K)       - Agent rozwoju theme'u WordPress
+├── calculator-plugin-agent.md (20K)     - Agent pluginu kalkulatora
+└── seo-optimization-agent.md (7K)       - Agent optymalizacji SEO
+
+.github/chatmodes/ - Tryby interakcji z AI
+├── development-mode.md (7.3K)           - Tryb deweloperski (szczegółowy)
+└── production-mode.md (3.8K)            - Tryb produkcyjny (zwięzły)
+
+.github/instructions/ - Instrukcje dla specyficznych zadań
+├── code-review-instructions.md (6.8K)   - Proces code review
+└── deployment-instructions.md (3.6K)    - Proces wdrożenia
+
+.github/prompts/ - Szablony promptów
+├── feature-development-prompt.md (2.4K) - Szablon dla nowych funkcji
+└── bug-fix-prompt.md (2.3K)            - Szablon dla bugfixów
+
+.github/prompt-snippets/ - Gotowe snippety kodu
+├── wordpress-snippets.md (8.6K)         - WordPress code snippets
+└── calculator-snippets.md (11K)         - Calculator plugin snippets
+
+TOTAL: 15 plików konfiguracyjnych, ~155KB dokumentacji AI
